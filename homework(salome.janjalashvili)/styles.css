@@ -4,11 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
+  font-family: "Inter", sans-serif;
   width: 1920px;
   height: 2135px;
-  background-color: #F5F5F7;
+  background-color: #f5f5f7;
   color: #000000;
 }
 
@@ -17,6 +17,7 @@ body {
 header {
   display: flex;
   justify-content: center;
+  height: 472px;
 }
 
 .nav-bar {
@@ -86,4 +87,76 @@ header {
   font-size: 20px;
   color: #ffffff;
   z-index: 1;
+}
+
+/* --- MAIN --- */
+
+.latest-news {
+  height: 1262px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px;
+  padding-top: 45px;
+}
+
+.latest-news-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/* --- CARD --- */
+
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  width: 360px;
+  height: 472px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-image {
+  width: 360px;
+  height: 240px;
+}
+
+.card-image-1 {
+  background-color: #c7b8ff;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px 19px;
+}
+
+.card-details {
+  display: flex;
+  gap: 28px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.card-description {
+  font-weight: 400;
+  font-size: 15px;
 }
