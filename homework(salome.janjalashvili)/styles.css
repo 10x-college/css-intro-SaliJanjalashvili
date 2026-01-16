@@ -108,8 +108,10 @@ header {
 /* --- CARD --- */
 
 .news-cards {
+  width: 1138px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 24px;
 }
 
@@ -129,6 +131,26 @@ header {
 
 .card-image-1 {
   background-color: #c7b8ff;
+}
+
+.card-image-2 {
+  background-color: #ffb8d8;
+}
+
+.card-image-3 {
+  background-color: #B8E0FF;
+}
+
+.card-image-4 {
+  background-color: #D4FFB8;
+}
+
+.card-image-5 {
+  background-color: #FFE4B8;
+}
+
+.card-image-6 {
+  background-color: #FFD4B8;
 }
 
 .card-content {
