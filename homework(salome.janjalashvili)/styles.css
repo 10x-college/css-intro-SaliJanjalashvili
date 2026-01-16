@@ -138,19 +138,19 @@ header {
 }
 
 .card-image-3 {
-  background-color: #B8E0FF;
+  background-color: #b8e0ff;
 }
 
 .card-image-4 {
-  background-color: #D4FFB8;
+  background-color: #d4ffb8;
 }
 
 .card-image-5 {
-  background-color: #FFE4B8;
+  background-color: #ffe4b8;
 }
 
 .card-image-6 {
-  background-color: #FFD4B8;
+  background-color: #ffd4b8;
 }
 
 .card-content {
@@ -207,7 +207,9 @@ footer {
   padding-left: 24px;
 }
 
-.footer-techblog, .footer-contact, .footer-categories {
+.footer-techblog,
+.footer-contact,
+.footer-categories {
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -216,12 +218,12 @@ footer {
 
 .footer-content .title {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-content .description {
   font-size: 14px;
-  color: #A1A1A6;
+  color: #a1a1a6;
 }
 
 .footer-copyright {
@@ -232,5 +234,5 @@ footer {
   width: 100%;
   font-size: 13px;
   background-color: #020202;
-  color: #86868B;
+  color: #86868b;
 }
